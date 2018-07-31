@@ -7,6 +7,23 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
-function palindrome(str) {}
+function palindrome(str) {
+    const rev = str
+        .toLowerCase()
+        .split('') // or [...str]
+        .reverse()
+        .join('');
+
+    return (str === rev ? true : false)
+} 
+
+
+// look at the stings length to increment for every step 
+// minus 1 to make sure we are at a 0 index for JS arrays
+function palindrome(str) {
+    return str.toLowerCase().split('').every((char, i) => {
+        return char === str[str.length - i - 1]
+    });
+}
 
 module.exports = palindrome;
