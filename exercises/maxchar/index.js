@@ -37,7 +37,7 @@ function maxChar(str) {
 module.exports = maxChar;
 
 
-// for of - string
+// for of - array or string
 // for in - object
 
 function maxChar(str) {
