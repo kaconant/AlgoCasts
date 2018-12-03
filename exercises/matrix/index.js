@@ -15,6 +15,19 @@
 //     [11, 16, 15, 6],
 //     [10,  9,  8, 7]]
 
-function matrix(n) {}
+function matrix(n) {
+
+  // creates empty array
+
+  // creates counter variable starting at 1
+
+  // as long as start column less than or equal to end column
+  // and start row less than or equal to end row
+
+  // then loop from start col to end col
+  // as 
+
+
+}
 
 module.exports = matrix;
